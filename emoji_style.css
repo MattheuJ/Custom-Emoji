@@ -1,0 +1,54 @@
+.head {
+    /*Positions the head relative to the body*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    /*Sets the color of the container and rounds the corners*/
+    background-color: #F2CF66;
+    border-radius: 50%;
+  
+    /*Sets the size of the container*/
+    width: 250px;
+    height: 260px;
+  }
+  
+  /* write your own CSS rules for the other parts, below! */
+
+.eye{
+  position: relative;
+  translate: 45px 75px;
+  img {
+    border-radius: 50%;
+    
+  }
+}
+
+.eye2{
+  position: relative;
+  translate: 100px -54px;
+}
+
+.mouth{
+  
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-80px, -10px);
+  height: 75px;
+  width: 150px;
+  border-radius: 0 0 150px 150px ;
+  background-color: rgb(175, 132, 13);
+
+  position: relative;
+}
+
+.tongue{
+  position: relative;
+  background-color: red;
+  height: 75px;
+  width: 50px;
+  translate: 50px 10px;
+  border-radius: 0 0 150px 150px ;
+}
